@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: rgb(0, 0, 33);
+      color: azure;
+      font-family: "Poppins", sans-serif;
+    }
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 66px;
+      background-color: rgb(12, 12, 50);
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: azure;
+    }
+    /* HOVER */
+    nav ul li a:hover {
+      color: rgb(137, 137, 201);
+      font-size: 1.01rem;
+    }
+    .right ul {
+      display: flex;
+      justify-content: center;
+    }
+    .right ul li {
+      list-style: none;
+      margin: 0 26px;
+    }
+
+    .left {
+      font-size: 1.6rem;
+    }
+
+    /* First-Section */
+    .first-section {
+      display: flex;
+      justify-content: space-around;
+      margin: 26px 0;
+    }
+    .first-section > div {
+      width: 30%;
+    }
+    .right-section img {
+      width: 93%;
+      margin: 50px 0;
+    }
+    .left-section {
+      font-size: 2.3rem;
+      margin: 108px;
+      line-height: 51px;
+    }
+    .purple {
+      color: violet;
+      font-size: 2.9rem;
+    }
+    /* HR */
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: violet;
+      margin: 26px 66px;
+    }
+    /* Second-Section */
+    .second-section {
+      max-width: 166vh;
+      margin: auto;
+      max-height: 80vh;
+    }
+    main h1 {
+      font-size: 1.9rem;
+    }
+    .text-gray {
+      color: gray;
+    }
+    .second-section .box {
+      background-color: azure;
+      width: 80vw;
+      height: 2px;
+      margin: 66px 0;
+      display: flex;
+      
+    }
+    .second-section .vertical{
+        width: 2px;
+        height: 93px;
+        background-color: azure;
+        margin: 0 226px;
+    }
+    .image1-top {
+        width: 93px;
+        position: relative;
+        bottom: 58px;
+        left: -42px;
+    }
+    .image2-top {
+        width: 166px;
+    position: relative;
+    bottom: 73px;
+    left: -81px;
+    }
+
+    /* Vertical title 1 */
+    .second-section .vertical-title{
+        position: relative;
+        top: 36px;
+    left: -66px;
+    width: 500px;
+    }
+
+    /* Vertical title 2 */
+    .second-section .vertical-title2{
+        position: relative;
+        top: 9px;
+    left: -66px;
+    width: 500px;
+    }
+
+    /* Vertical dec 1 */
+    .box .vertical-dec{
+        font-size: 0.7rem;
+        width: 266px;
+    position: relative;
+    top: 39px;
+    right: 66px;
+    color: gray;
+    }
+
+    /* Vertical dec 2 */
+    .box .vertical-dec2{
+        font-size: 0.7rem;
+        width: 266px;
+    position: relative;
+    top: 11px;
+    right: 66px;
+    color: gray;
+    }
+
+
+        
+ 
+    /* Typed-js */
+    #element {
+      color: violet;
+    }
+  </style>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav>
+        <div class="left">Sahitya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href=""> About Me</a></li>
+            <li><a href=""> Services</a></li>
+            <li><a href=""> Projects</a></li>
+            <li><a href=""> Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- First Section -->
+    <main>
+      <section class="first-section">
+        <div class="left-section">
+          I am
+          <span class="purple">Sahitya</span>
+          <div>and I am a Passionate</div>
+
+          <!-- Typed.js Element -->
+          <span id="element"></span>
+        </div>
+        <div class="right-section">
+          <img src="./IMG/web-dev-3-removebg-preview.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <!-- Second Section -->
+      <section class="second-section">
+        <span class="text-gray">What I Have Done So Far</span>
+        <h1>Past Experience</h1>
+        <div class="box">
+
+            <!-- Vertical 1 -->
+            <div class="vertical">
+
+            <img class="image1-top" src="./IMG/python-logo.png" alt="" srcset="">
+           <div class="vertical-title">
+            Python Instructor (September - December 2022)
+           </div>
+            <div class="vertical-dec">
+                I did an Internship in which I taught Coding language from scratch.I made 25 hour course on "Python Programming" which includes couple of excercises from which folks can enhance their coding skills.
+            </div>
+          </div>
+
+          <!-- Vertical 2 -->
+          <div class="vertical">
+
+            <img class="image2-top" src="./IMG/web-logo2-removebg-preview.png" alt="" srcset="">
+           <div class="vertical-title2">
+            Web Development Instructor (January 2023 - Currently Working)
+           </div>
+            <div class="vertical-dec2">
+                I am teaching HTML , CSS & Javascript to students who are not aware of "Web Development". I am doing an Internship which is kind of a Social Service as I am teaching young folks who belong's to rural areas . I am doing this Internship at a Non-Profit Organisation which known as "Go Girl".
+            </div>
+          </div>
+
+          
+
+
+
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer >
+        <div class="footer-flex">
+
+            <div class="footer-first"></div>
+            <div class="footer-first"></div>
+            <div class="footer-first"></div>
+            <div class="footer-first"></div>
+        </div>
+        </footer>
+
+    <!-- Typed.js Imported Link (CDN)-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Video Editor",
+          "Web Designer",
+          "Programmer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
