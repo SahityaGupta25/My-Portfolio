@@ -25,39 +25,54 @@
     }
     /* NAVBAR */
     nav {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 66px;
-      background-color: rgb(12, 12, 50);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 66px;
+        background-color: rgb(12, 12, 50);
     }
     nav ul li a {
-      text-decoration: none;
+        text-decoration: none;
       color: azure;
     }
     /* HOVER */
     nav ul li a:hover {
-      color: rgb(137, 137, 201);
-      font-size: 1.01rem;
+        color: rgb(137, 137, 201);
+        font-size: 1.01rem;
     }
     .right ul {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
     .right ul li {
-      list-style: none;
-      margin: 0 26px;
+        list-style: none;
+        margin: 0 26px;
     }
 
+    /* Pictures */
+    .pics{
+        display: flex;
+        justify-content: space-around;
+    }
+    .right-section img{
+        width: 350px;
+        height: 750px;
+        padding-bottom: 166px;
+    }
+    .pics img{
+
+        width: 166px;
+    }
+    
     .left {
       font-size: 1.6rem;
     }
-
+    
     /* First-Section */
     .first-section {
-      display: flex;
-      justify-content: space-around;
-      margin: 26px 0;
+        display: flex;
+        justify-content: space-around;
+        margin: 26px 0;
     }
     .first-section > div {
       width: 30%;
@@ -71,6 +86,19 @@
       margin: 108px;
       line-height: 51px;
     }
+    /* Buttons */
+    .btn {
+      padding: 9px;
+      background-color: darkmagenta;
+      color: azure;
+      border-radius: 16px;
+      font-size: 1.1rem;
+      border: 1px solid white;
+    }
+    .btn:hover{
+        background-color: rgb(12, 12, 50);
+    }
+
     .purple {
       color: violet;
       font-size: 2.9rem;
@@ -157,18 +185,18 @@
     }
     /* Footer */
     .footer {
-      background-color:  rgb(12, 12, 50);
+      background-color: rgb(12, 12, 50);
       height: 206px;
       display: flex;
-       padding: 25px 166px; 
-       justify-content: space-between;
+      padding: 25px 166px;
+      justify-content: space-between;
     }
-    .footer ul{
-        list-style: none;
+    .footer ul {
+      list-style: none;
     }
-    .footer-rights{
-        text-align: center;
-        color: gray;
+    .footer-rights {
+      text-align: center;
+      color: gray;
     }
 
     /* Typed-js */
@@ -201,13 +229,30 @@
           <span class="purple">Sahitya</span>
           <div>and I am a Passionate</div>
 
+
           <!-- Typed.js Element -->
           <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
         </div>
+
+        <!-- Right Section of Navbar -->
         <div class="right-section">
-          <img src="./IMG/web-dev-3-removebg-preview.png" alt="" />
+            <img  src="./IMG/Vasu-IMG-op.png" alt="" >
         </div>
-      </section>
+    </section>
+
+    <!-- Pctrures os my Passion -->
+    <div class="pics">
+
+        <img src="./IMG/web-designer_logo-removebg-preview.png" alt="">
+        <img src="./IMG/programmer-logo.jpg" alt="">
+        <img src="./IMG/pc-gamer-removebg-preview.png" alt="">
+        <img src="./IMG/web-dev-3-removebg-preview.png" alt="" />
+        <img src="./IMG/video-editing_logo-removebg-preview.png" alt="">
+    </div>
 
       <hr />
 
@@ -265,28 +310,28 @@
           <h3>Sahitya's Portfolio</h3>
         </div>
         <div class="footer-first">
-            <ul>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Clients</li>
-                <li>Hobbies</li>
-            </ul>
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Clients</li>
+            <li>Hobbies</li>
+          </ul>
         </div>
         <div class="footer-first">
-            <ul>
-                <li>Work</li>
-                <li>Services</li>
-                <li>Clients</li>
-                <li>Carrers</li>
-            </ul>
+          <ul>
+            <li>Work</li>
+            <li>Services</li>
+            <li>Clients</li>
+            <li>Carrers</li>
+          </ul>
         </div>
         <div class="footer-first">
-            <ul>
-                <li>Location</li>
-                <li>Services</li>
-                <li>Achievements</li>
-                <li>Hobbies</li>
-            </ul>
+          <ul>
+            <li>Location</li>
+            <li>Services</li>
+            <li>Achievements</li>
+            <li>Hobbies</li>
+          </ul>
         </div>
       </div>
       <div class="footer-rights">
