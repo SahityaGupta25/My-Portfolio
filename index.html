@@ -104,7 +104,7 @@
     }
     #pic-h{
       height: 226px;
-    width: 266px;
+    width: 366px;
     }
 
     .left {
@@ -154,6 +154,15 @@
     /* HR */
     #hr-1 {
       color: violet;
+    }
+    .intrest{
+      max-width: 166vh;
+      margin: auto;
+      height: 16vh;
+    }
+    #h1-2{
+      font-size: 1.9rem;
+      
     }
     hr {
       border: 0;
@@ -253,236 +262,13 @@
 
       /* Media-Queries */
     /* ---------------------------------------------------------------------------------------------------- */
-    @media only screen
-and (min-width: 375px)
-and (max-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-        body {
-      background-color: rgb(0, 0, 33);
-      color: azure;
-      font-family: "Poppins", sans-serif;
-    }
-    /* NAVBAR Media Query*/
-    nav {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 66px;
-      background-color: rgb(12, 12, 50);
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: azure;
-    }
-    /* HOVER */
-    nav ul li a:hover {
-      color: rgb(137, 137, 201);
-      font-size: 1.01rem;
-    }
-  
-    .right ul {
-      display: flex;
-      justify-content: center;
-    }
-    .right ul li {
-      list-style: none;
-      margin: 0 26px;
-    }
+  @media screen and (900px <= width <= 1300px) {
+    nav{
+      flex-direction: column;
 
-    /* Pictures */
-    .pics {
-      display: flex;
-      justify-content: space-around;
-      
     }
-
-    .pics img {
-      width: 193px;
-    }
-    #pic-a {
-      height: 166px;
-    width: 326px;
-
-      
-    }
-  
-
-    #pic-b {
-      height: 166px;
-    width: 166px;
-    }
-   
-
-    #pic-c {
-      height: 193px;
-    width: 166px;
-    }
-  
-
-    /* Pics 2nd DIV */
-    .pics-2 {
-      display: flex;
-      justify-content: space-around;
-  
-    }
-    #pic-d {
-      height: 316px;
-      width: 366px;
-    }
-
-    #pic-e {
-      height: 266px;
-      width: 293px;
-    }
-    #pic-f {
-      height: 193px;
-      width: 226px;
-    }
-
-    .left {
-      font-size: 1.6rem;
-    }
-
-    /* First-Section */
-    .first-section {
-      display: flex;
-      justify-content: space-around;
-      margin: 16px 0;
-    }
-    .first-section > div {
-      width: 30%;
-    }
-
-    .right-section img {
-      width: 66%;
-      margin: 23px 66px;
-    }
-    .left-section {
-      font-size: 2.3rem;
-      margin: 108px;
-      line-height: 51px;
-    }
-    /* Buttons */
-    .btn {
-      padding: 9px;
-      background-color: darkmagenta;
-      color: azure;
-      border-radius: 16px;
-      font-size: 1.1rem;
-      border: 1px solid white;
-    }
-    .btn a {
-      text-decoration: none;
-      color: azure;
-    }
-    .btn:hover {
-      background-color: rgb(12, 12, 50);
-    }
-
-    .purple {
-      color: violet;
-      font-size: 2.9rem;
-    }
-    /* HR */
-    #hr-1 {
-      color: violet;
-    }
-    hr {
-      border: 0;
-      height: 1px;
-      background-color: violet;
-      margin: 26px 66px;
-    }
-    /* Second-Section */
-    .second-section {
-      max-width: 166vh;
-      margin: auto;
-      height: 80vh;
-    }
-    main h1 {
-      font-size: 1.9rem;
-    }
-    .text-gray {
-      color: gray;
-    }
-    .second-section .box {
-      background-color: azure;
-      width: 80vw;
-      height: 2px;
-      margin: 66px 0;
-      display: flex;
-    }
-    .second-section .vertical {
-      width: 2px;
-      height: 93px;
-      background-color: azure;
-      margin: 0 226px;
-    }
-    .image1-top {
-      width: 93px;
-      position: relative;
-      bottom: 58px;
-      left: -42px;
-    }
-    .image2-top {
-      width: 166px;
-      position: relative;
-      bottom: 73px;
-      left: -81px;
-    }
-
-    /* Vertical title 1 */
-    .second-section .vertical-title {
-      position: relative;
-      top: 36px;
-      left: -66px;
-      width: 500px;
-    }
-
-    /* Vertical title 2 */
-    .second-section .vertical-title2 {
-      position: relative;
-      top: 9px;
-      left: -66px;
-      width: 500px;
-    }
-
-    /* Vertical dec 1 */
-    .box .vertical-dec {
-      font-size: 0.7rem;
-      width: 266px;
-      position: relative;
-      top: 39px;
-      right: 66px;
-      color: gray;
-    }
-
-    /* Vertical dec 2 */
-    .box .vertical-dec2 {
-      font-size: 0.7rem;
-      width: 266px;
-      position: relative;
-      top: 11px;
-      right: 66px;
-      color: gray;
-    }
-    /* Footer */
-    .footer {
-      background-color: rgb(12, 12, 50);
-      height: 206px;
-      display: flex;
-      padding: 25px 166px;
-      justify-content: space-between;
-    }
-    .footer ul {
-      list-style: none;
-    }
-    .footer-rights {
-      text-align: center;
-      color: gray;
-    }
-    }
+    
+  }
 
     /* Typed-js */
     #element {
@@ -538,8 +324,12 @@ and (orientation: portrait) {
       </section>
 
       <hr id="hr-1" />
+      <div class="intrest">
+        <span class="text-gray">I have keen Intrest in these</span>
+          <h1 id="h1-2">My Intrest</h1>
+      </div>
 
-      <!-- Pctrures os my Passion -->
+      <!-- Pictures of my Intrest -->
       <div class="pics">
         <img id="pic-a"  src="./IMG/web-designer_logo-removebg-preview.png" alt="" />
         <img id="pic-b" src="./IMG/programmer-logo-1-removebg-preview.png" alt=""/>
