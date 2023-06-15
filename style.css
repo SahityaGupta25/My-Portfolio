@@ -302,7 +302,17 @@ nav{
 nav .right ul{
     flex-direction: column;
 }
+.right-section img{
+  width: 123%;
+    margin: 21px 0px;
+}
+
+.footer{
+    margin-top: 226px;
+   }
+
      }
+    
      /* ------------------------------------------------------------------------------------------------------------------------- */
 
      @media screen and (max-width: 660px) {
@@ -337,6 +347,26 @@ height: 100vh;
     left: -66px;
     width: 226px;
   }
+  .right-section img{
+    width: 216%;
+    margin: 0px -55px;
+  }
+  .second-section .vertical {
+    margin-top: 316px;
+}
        }
+
+       @media screen and (max-width: 400px) {
+        
+      .second-section .vertical {
+        margin-top: 240px;
+    }
+    .footer{
+      margin-top: 100px;
+    }
+       }
+
+
+
 
        
