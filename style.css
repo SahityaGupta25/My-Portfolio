@@ -247,4 +247,19 @@
 
         /* Media-Queries */
       /* ---------------------------------------------------------------------------------------------------- */
-     
+      /* First Section */
+     @media screen and (max-width: 2000px) {
+        .first-section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+       }
+footer{
+    display: none;
+}
+.box{
+    flex-direction: column;
+}
+
+     }
