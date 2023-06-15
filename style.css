@@ -248,7 +248,7 @@
         /* Media-Queries */
       /* ---------------------------------------------------------------------------------------------------- */
       /* First Section */
-     @media screen and (max-width: 1600px) {
+     @media screen and (max-width: 1300px) {
         .first-section{
         flex-direction: column-reverse;
         justify-content: center;
@@ -303,3 +303,24 @@ nav .right ul{
     flex-direction: column;
 }
      }
+
+     @media screen and (max-width: 660px) {
+       .footer{
+        height: 466px;
+        flex-direction: column;
+        padding: 230px 166px;
+       }
+       .right-section img{
+        width: 225%;
+    margin: 0px auto;
+}
+nav{
+  flex-direction: column;
+
+}
+.second-section {
+  
+height: 100vh;
+}
+       }
+     
