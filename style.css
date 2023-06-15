@@ -303,24 +303,40 @@ nav .right ul{
     flex-direction: column;
 }
      }
+     /* ------------------------------------------------------------------------------------------------------------------------- */
 
      @media screen and (max-width: 660px) {
        .footer{
         height: 466px;
         flex-direction: column;
-        padding: 230px 166px;
+        padding: 93px 166px;
        }
        .right-section img{
-        width: 225%;
-    margin: 0px auto;
+        width: 193%;
+        margin: 0px -108px;
 }
 nav{
   flex-direction: column;
 
 }
 .second-section {
-  
+
 height: 100vh;
 }
+.vertical-dec{
+  left: -66px;
+  }
+  .vertical-dec2{
+      left: -66px;
+  }
+  .second-section .vertical-title{
+    left: -66px;
+    width: 226px;
+  }
+  .second-section .vertical-title2{
+    left: -66px;
+    width: 226px;
+  }
        }
-     
+
+       
