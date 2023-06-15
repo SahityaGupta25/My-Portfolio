@@ -261,5 +261,30 @@ footer{
 .box{
     flex-direction: column;
 }
+.second-section .vertical{
+    height: unset;
+}
+    .vertical-title{
+    left: 66px;    
+}
+.vertical-title2{
+left: 66px;
+}
+.vertical-dec{
+left: 66px;
+}
+.vertical-dec2{
+    left: 66px;
+}
+.pics{
 
+    flex-wrap: wrap;   
+}
+.pics-2{
+    flex-wrap: wrap;
+}
+
+.intrest{
+    text-align: center;
+}
      }
