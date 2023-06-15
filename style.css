@@ -248,21 +248,20 @@
         /* Media-Queries */
       /* ---------------------------------------------------------------------------------------------------- */
       /* First Section */
-     @media screen and (max-width: 2000px) {
+     @media screen and (max-width: 1600px) {
         .first-section{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
 
        }
-footer{
-    display: none;
-}
 .box{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .second-section .vertical{
-    height: unset;
+    margin-top: 200px;
 }
     .vertical-title{
     left: 66px;    
@@ -278,13 +277,29 @@ left: 66px;
 }
 .pics{
 
-    flex-wrap: wrap;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .pics-2{
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .intrest{
     text-align: center;
+}
+.second-section h1,#second-section-text{
+    text-align: center;
+}
+.second-section .box{
+    margin: 147px 0;
+}
+nav{
+    height: 226px;
+}
+nav .right ul{
+    flex-direction: column;
 }
      }
