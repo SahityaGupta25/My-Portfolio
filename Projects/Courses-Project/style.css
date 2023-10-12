@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.training-section{
+    width: 100%;
+    background: url(./IMG/wallpaperflare.com_wallpaper\ \(3\).jpg) center;
+    background-size: cover;
+    padding-bottom: 50px;
+    opacity: 0.9;
+}
+.training-section h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 25px 0px;
+    color: azure;
+    font-family:monospace;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    color: azure;
+    border: 6px double lightslategrey;
+    border-radius: 6px;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.training-items{
+    flex-basis: 22%;
+    text-align: center;
+    padding: 20px 0px;
+
+    border-radius: 6px;
+    margin: 16px 0px;
+    box-shadow: 0px 3px 10px 6px rgb(84, 84, 90);
+}
+.training-items img{
+    height: 66px;
+    border-radius: 6px;
+}
+.training-items h3{
+    padding: 16px;
+}
+.training-items p{
+    font-size: 1;
+    padding: 26px 0px;
+}
+.training-items button{
+    color: azure;
+    background-color: blue;
+    padding: 6px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 6px lightslategray;
+}
+
+.training-items:hover{
+    background-color: blue;
+    border-radius: 11px;
+
+}
+
+.training-items:hover button{
+  background-color: azure;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  box-shadow: 0px 0px 6px 6px lightslategrey;
+
+} 
+
+@media only screen and (min-width: 200px) and (max-width: 766px){
+    .container{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .training-items{
+        margin: 10px 5px;
+        border: none;
+        border-radius: 0px;
+        box-shadow: none;
+        /* background-color: azure; */
+        /* color: black; */
+        font-weight: bold;
+        font-family: fantasy;
+        
+    }
+    .training-items p{
+            /* background-color: yellow; */
+            
+            font-weight: 300;
+    }
+    .training-items h3{
+            /* background-color: yellow; */
+
+            font-weight: 300;
+    }
+}

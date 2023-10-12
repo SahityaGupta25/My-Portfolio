@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Lato:wght@700&family=Ubuntu:ital@1&display=swap');
+
+body{
+    font-family: 'AR One Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+overflow: hidden;
+background: conic-gradient(from 90deg at 25% -10%, #ff4500, #d3f340, #7bee85, #afeeee, #7bee85)
+
+}
+.container{
+    
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digitalclock{
+   
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.digitalclock h1{
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 4rem;
+}
+ @media (max-width:660px ){
+    .digitalclock h1{
+        font-size: 3rem;
+    }
+ }
+ @media (max-width:560px ){
+    .digitalclock h1{
+        font-size: 2rem;
+    }
+ }
+ @media (max-width:390px ){
+    .digitalclock h1{
+        font-size: 1.5rem;
+    }
+ }
+ @media (max-width:325px ){
+    .digitalclock h1{
+        font-size: 1rem;
+    }
+ }

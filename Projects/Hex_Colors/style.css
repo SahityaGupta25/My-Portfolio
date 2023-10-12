@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hex-colors{
+    text-align: center;
+}
+
+.hex-colors h1{
+    animation: changecolors 6s infinite alternate;
+
+}
+#hexc{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-style: italic;
+    border: 3px double rgb(0, 0, 0);
+}
+@keyframes changecolors{
+    0%{
+        color: blue;
+    }
+    20%{
+        color: darkorange 
+    }
+40%{
+        color: darkviolet;
+    }
+    60%{
+        color: darkgreen;
+    }
+    100%{
+        color: darkred;
+    }
+}
