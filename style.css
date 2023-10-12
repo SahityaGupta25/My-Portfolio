@@ -22,8 +22,11 @@
       }
       /* HOVER */
       nav ul li a:hover {
-        color: rgb(137, 137, 201);
+        color: lightblue;
         font-size: 1.01rem;
+      }
+      nav ul li a:active {
+       color: red;
       }
 
       .right ul {
@@ -34,6 +37,9 @@
         list-style: none;
         margin: 0 26px;
       }
+      
+    
+     
 
       /* Pictures */
       .pics {
@@ -91,9 +97,24 @@
         height: 226px;
       width: 366px;
       }
-
+/* LEFT  */
       .left {
         font-size: 1.6rem;
+        cursor: pointer;
+        
+      }
+      .left a{
+        text-decoration: none;
+        color: aliceblue;
+        
+      }
+      .left a:hover{
+        color: lightblue;
+        
+      }
+      .left a:active{
+        color: red;
+        
       }
 
       /* First-Section */
@@ -167,6 +188,11 @@
       .text-gray {
         color: gray;
       }
+      #second-section-text{
+      
+        margin-left: 66px;
+        font-weight: 500;
+      }
       .second-section .box {
         background-color: azure;
         width: 80vw;
@@ -238,6 +264,10 @@
       }
       .footer ul {
         list-style: none;
+      }
+      .footer-ul li a{
+        text-decoration: none;
+        color: aliceblue
       }
       .footer-rights {
         text-align: center;
