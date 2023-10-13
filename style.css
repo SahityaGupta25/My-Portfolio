@@ -103,19 +103,8 @@
         cursor: pointer;
         
       }
-      .left a{
-        text-decoration: none;
-        color: aliceblue;
-        
-      }
-      .left a:hover{
-        color: lightblue;
-        
-      }
-      .left a:active{
-        color: red;
-        
-      }
+      
+      
 
       /* First-Section */
       .first-section {
