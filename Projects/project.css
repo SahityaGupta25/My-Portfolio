@@ -140,7 +140,13 @@ gap:6px;
 /*-------------------------------------------------------------------------------------------------------------------*/
 /* Media Queries */
 @media (max-width: 2000px){
-    
+       .projects img:hover{
+        
+        width: 293px;
+        height: 250px;
+        transition: 0.3s;
+        z-index: 1;
+    }
 }
 @media (max-width: 1680px){
     body{
