@@ -139,6 +139,9 @@ gap:6px;
 }
 /*-------------------------------------------------------------------------------------------------------------------*/
 /* Media Queries */
+@media (max-width: 2000px){
+    
+}
 @media (max-width: 1680px){
     body{
       
@@ -191,7 +194,7 @@ gap:6px;
     
     .projects img{
         
-        width: 200px;
+        width: 250px;
         height: 150px;
         border-radius: 6px;
         margin: auto;
